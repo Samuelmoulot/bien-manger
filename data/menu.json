@@ -1,0 +1,70 @@
+{
+  "restaurant": {
+    "name": "Restaurant Mobil - Bien Manger",
+    "tagline": "Bien manger, notre devise.",
+    "description": "Des repas soigneusement préparés, livrés selon vos besoins.",
+    "phoneDisplay": "+225 07 49 16 92 93",
+    "whatsappNumber": "2250749169293",
+    "email": "abehiblo@yahoo.com",
+    "location": "Abidjan - Yopougon, Palais de Justice",
+    "serviceTypes": ["Résidences meublées", "Entreprises et professionnels"]
+  },
+  "categories": [
+    {
+      "id": "petit-dejeuner",
+      "title": "Petits-déjeuners gourmands",
+      "price": 1500,
+      "currency": "F CFA",
+      "description": "Petits-déjeuners gourmands à 1 500 F CFA. Le panini et le sandwich à la viande hachée sont à 1 000 F CFA.",
+      "items": [
+        {"name": "Panini moderne", "details": "Panini grillé, préparé à la commande.", "price": 1000, "image": "/images/catalogue-page-2-photo-3.png", "imageAlt": "Panini grillé garni, photo du catalogue Bien Manger"},
+        {"name": "Sandwich à la viande hachée", "details": "Sandwich généreux à la viande hachée et au chawarma.", "price": 1000, "image": "/images/catalogue-page-2-photo-2.png", "imageAlt": "Sandwich garni, photo du catalogue Bien Manger"},
+        {"name": "Frites de pommes de terre", "details": "Pommes de terre dorées et croustillantes.", "image": "/images/catalogue-page-9-photo-1.png", "imageAlt": "Frites servies avec du poulet, photo du catalogue"},
+        {"name": "Nouilles ou spaghettis aux boulettes", "details": "Pâtes accompagnées de boulettes.", "image": "/images/catalogue-page-3-photo-1.png", "imageAlt": "Assiette de spaghettis aux boulettes, photo du catalogue"},
+        {"name": "Croissants au fromage et au chocolat", "details": "Croissants au fromage et croissants au chocolat.", "image": "/images/catalogue-page-3-photo-3.png", "imageAlt": "Croissants dorés, photo du catalogue Bien Manger"},
+        {"name": "Jambons", "details": "Proposés dans la formule petit-déjeuner gourmand.", "image": "/images/catalogue-page-3-photo-2.png", "imageAlt": "Croissant garni au jambon, photo du catalogue"},
+        {"name": "Pain, œuf et café", "details": "Une formule simple et complète pour le petit-déjeuner.", "price": 1000, "image": "/images/catalogue-page-3-photo-2.png", "imageAlt": "Exemple de petit-déjeuner, photo issue du catalogue"},
+        {"name": "Chawarma", "details": "Chawarma proposé dans la rubrique petit-déjeuner gourmand.", "image": "/images/catalogue-page-2-photo-1.png", "imageAlt": "Sandwich roulé de la carte petit-déjeuner Bien Manger"}
+      ]
+    },
+    {
+      "id": "accompagnements",
+      "title": "Accompagnements petits-déjeuners",
+      "price": 1000,
+      "currency": "F CFA",
+      "description": "Les boissons restent aux tarifs indiqués ; les accompagnements du petit-déjeuner varient de 500 à 1 000 F CFA.",
+      "items": [
+        {"name": "Jus de gingembre", "details": "Jus frais au gingembre.", "image": "/images/catalogue-page-4-photo-3.png", "imageAlt": "Boisson citronnée, photo du catalogue"},
+        {"name": "Jus de bissap nature", "details": "Bissap nature servi frais.", "image": "/images/catalogue-page-4-photo-1.png", "imageAlt": "Verres de bissap, photo du catalogue"},
+        {"name": "Jus de passion", "details": "Jus de passion servi frais.", "image": "/images/catalogue-page-4-photo-2.png", "imageAlt": "Verres de jus colorés, photo du catalogue Bien Manger"},
+        {"name": "Jus de citron", "details": "Jus de citron servi frais.", "image": "/images/catalogue-page-4-photo-3.png", "imageAlt": "Boisson au citron, photo du catalogue"},
+        {"name": "Jus d’ananas nature", "details": "Jus d’ananas nature.", "image": "/images/catalogue-page-5-photo-1.png", "imageAlt": "Jus d’ananas avec ananas frais, photo du catalogue"},
+        {"name": "Thé parfumé", "details": "Au choix : cannelle, clou de girofle, miel ou gingembre.", "image": "/images/catalogue-page-5-photo-3.png", "imageAlt": "Tasse de thé chaud, photo du catalogue"},
+        {"name": "Café", "details": "Café chaud.", "image": "/images/catalogue-page-5-photo-2.png", "imageAlt": "Tasse de café, photo du catalogue"},
+        {"name": "Thé", "details": "Thé chaud à 500 F CFA.", "price": 500, "image": "/images/catalogue-page-5-photo-3.png", "imageAlt": "Tasse de thé chaud, photo du catalogue"},
+        {"name": "Yaourt fait maison", "details": "Yaourt préparé maison, proposé comme accompagnement.", "image": "/images/catalogue-page-4-photo-2.png", "imageAlt": "Boisson fraîche, photo illustrative issue du catalogue"}
+      ]
+    },
+    {
+      "id": "dejeuner-diner",
+      "title": "Offres déjeuners et dîners",
+      "price": 6000,
+      "currency": "F CFA",
+      "description": "Tous les plats du catalogue sont à 6 000 F CFA, avec leurs accompagnements au choix.",
+      "items": [
+        {"name": "Tchêp au poisson", "details": "Tchêp accompagné de poisson.", "image": "/images/catalogue-page-6-photo-1.png", "imageAlt": "Tchêp au poisson servi avec ses légumes, photo du catalogue"},
+        {"name": "Tchêp au poulet", "details": "Tchêp accompagné de poulet.", "image": "/images/catalogue-page-6-photo-2.png", "imageAlt": "Tchêp au poulet, photo du catalogue Bien Manger"},
+        {"name": "Tchêp à la viande de bœuf", "details": "Tchêp accompagné de viande de bœuf.", "image": "/images/catalogue-page-6-photo-3.png", "imageAlt": "Tchêp à la viande de bœuf, photo du catalogue"},
+        {"name": "Poisson à la braise", "details": "Accompagnements au choix : attiéké, alloko ou frites.", "image": "/images/catalogue-page-8-photo-1.png", "imageAlt": "Poisson braisé et accompagnements, photo du catalogue"},
+        {"name": "Escargots sautés", "details": "Accompagnements : riz, attiéké ou pain.", "image": "/images/catalogue-page-7-photo-1.png", "imageAlt": "Plat sauté servi avec des légumes, photo du catalogue"},
+        {"name": "Brochettes", "details": "Accompagnements : alloko, frites ou pain.", "image": "/images/catalogue-page-8-photo-2.png", "imageAlt": "Brochettes grillées, photo du catalogue Bien Manger"},
+        {"name": "Poisson grillé", "details": "Accompagnements : attiéké, alloko, frites ou abolo.", "image": "/images/catalogue-page-7-photo-2.png", "imageAlt": "Poisson grillé avec ses accompagnements, photo du catalogue"},
+        {"name": "Porc au four", "details": "Accompagnements : attiéké, alloko ou frites.", "image": "/images/catalogue-page-9-photo-2.png", "imageAlt": "Viande rôtie aux légumes, photo du catalogue"},
+        {"name": "Poulet grillé", "details": "Accompagnements : attiéké, alloko ou frites.", "image": "/images/catalogue-page-9-photo-1.png", "imageAlt": "Poulet et frites, photo du catalogue Bien Manger"},
+        {"name": "Couscous au poulet", "details": "Accompagnements : attiéké ou riz.", "image": "/images/catalogue-page-10-photo-1.png", "imageAlt": "Poulet en sauce et semoule, photo du catalogue"},
+        {"name": "Kedjenou de poulet pondeuse", "details": "Accompagnements : attiéké ou riz.", "image": "/images/catalogue-page-10-photo-2.png", "imageAlt": "Kedjenou de poulet en sauce, photo du catalogue"},
+        {"name": "Soupe de poisson", "details": "Carpe ou mâchoiron à la viande de bœuf. Accompagnements : attiéké ou riz.", "image": "/images/catalogue-page-10-photo-3.png", "imageAlt": "Soupe de poisson en sauce, photo du catalogue Bien Manger"}
+      ]
+    }
+  ]
+}

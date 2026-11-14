@@ -1,0 +1,9 @@
+{
+  "name": "bien-manger-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site de commande pour Restaurant Mobil - Bien Manger",
+  "scripts": {
+    "start": "node backend/server.js"
+  }
+}

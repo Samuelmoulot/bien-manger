@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17120d">
+  <meta name="description" content="Menus et prix de Restaurant Mobil - Bien Manger, à Abidjan.">
+  <title>Nos menus | Restaurant Mobil - Bien Manger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/site-enhancements.css">
+  <link rel="stylesheet" href="/reference-theme.css">
+  <script src="/app.js" defer></script>
+</head>
+<body class="category-page-body">
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Bien Manger, accueil"><span class="brand-mark" aria-hidden="true">BM</span><span class="brand-name">Restaurant Mobil<strong>Bien Manger</strong></span></a>
+    <div class="header-search"><input id="product-search" type="search" placeholder="Rechercher un plat…" aria-label="Rechercher un plat ou une boisson"><button id="search-submit" type="button" aria-label="Rechercher">⌕</button></div>
+    <div class="language-switch" aria-label="Langue"><span class="is-active">FR</span><span>EN</span></div>
+    <nav class="main-nav" aria-label="Navigation des menus">
+      <a href="/menu-page.html?category=petit-dejeuner">Petit-déjeuner</a>
+      <a href="/menu-page.html?category=accompagnements">Boissons</a>
+      <a href="/menu-page.html?category=dejeuner-diner">Déjeuner & dîner</a>
+    </nav>
+    <button class="nav-order cart-header-button" id="header-cart-button" type="button">Panier <span id="header-cart-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="category-banner">
+      <p class="eyebrow"><span></span> RESTAURANT MOBIL · BIEN MANGER</p>
+      <h1 id="category-page-title" class="blink-title">Nos menus</h1>
+      <p id="category-page-description">Des recettes préparées avec amour et délicatesse.</p>
+      <a class="category-back" href="/">← Retour à l’accueil</a>
+    </section>
+
+    <section class="menu-section category-menu-section" aria-label="Carte et prix">
+      <div class="section-heading"><div><p class="eyebrow"><span></span> LA CARTE</p><h2>À table, <em>à votre goût.</em></h2></div><p class="section-intro">Choisissez un plat, puis ajoutez-le à votre commande WhatsApp.</p></div>
+      <div class="menu-grid" id="menu-grid" data-view="category" aria-live="polite"><p class="loading">Chargement de la carte…</p></div>
+      <p class="menu-footnote">Tous les prix comprennent la livraison. Pour les disponibilités, contactez-nous directement.</p>
+    </section>
+
+    <section class="catalogue-section" id="catalogue">
+      <div class="catalogue-mark" aria-hidden="true">BM</div>
+      <div class="catalogue-copy"><p class="eyebrow"><span></span> À FEUILLETER</p><h2>Le catalogue Bien Manger</h2><p>Retrouvez notre présentation et nos propositions dans le catalogue complet.</p></div>
+      <a class="button button-catalogue" href="https://canva.link/0vdpgq3g9wwn0mi" target="_blank" rel="noreferrer">Consulter le catalogue <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="order-banner">
+      <div><p class="eyebrow eyebrow-light"><span></span> UN PETIT CREUX ? · CONTACTEZ BIEN MANGER</p><h2>On vous prépare<br>quelque chose de bon.</h2></div>
+      <a class="button button-light" href="https://wa.me/2250749169293?text=Bonjour%20Bien%20Manger%2C%20je%20souhaite%20passer%20une%20commande." target="_blank" rel="noreferrer">Écrire sur WhatsApp <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="payment-panel" aria-label="Paiements mobiles">
+      <div><p class="eyebrow"><span></span> PAIEMENT MOBILE</p><h2>Réglez avec votre solution préférée.</h2><p>Wave ou Orange Money, au numéro du restaurant :</p><strong class="payment-number">+225 07 49 16 92 93</strong></div>
+      <div class="payment-brands"><span class="payment-brand wave-brand">Wave</span><span class="payment-brand orange-brand">Orange Money</span></div>
+    </section>
+
+    <section class="thank-you" aria-labelledby="thank-you-title"><span class="thank-spark" aria-hidden="true">✳</span><p class="eyebrow"><span></span> UN MOT DU RESTAURANT <span></span></p><h2 id="thank-you-title">Merci pour votre confiance.</h2><p>Chaque commande nous fait plaisir. Nous avons hâte de vous retrouver autour d’un bon repas.</p><span class="thank-signature">Restaurant Mobil - Bien Manger</span></section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-main">
+      <a class="brand footer-brand" href="/"><span class="brand-mark" aria-hidden="true">BM</span><span class="brand-name">RESTAURANT MOBIL<strong>BIEN MANGER</strong></span></a>
+      <p class="footer-promise">Bien manger,<br>notre devise.</p>
+      <div class="footer-contact"><span class="footer-label">COMMANDES & RENSEIGNEMENTS</span><a href="tel:+2250749169293">+225 07 49 16 92 93</a><a href="mailto:abehiblo@yahoo.com">abehiblo@yahoo.com</a></div>
+      <div class="footer-contact"><span class="footer-label">NOUS TROUVER</span><span>Abidjan · Yopougon<br>Palais de Justice</span></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Restaurant Mobil - Bien Manger</span><span>Wave & Orange Money · +225 07 49 16 92 93</span><a class="qr-card footer-qr" href="https://wa.me/2250749169293?text=Catalogue%20Bien%20Manger%20%3A%20https%3A%2F%2Fcanva.link%2F0vdpgq3g9wwn0mi" target="_blank" rel="noreferrer"><img src="/images/qr-whatsapp.svg" alt="QR code pour afficher le lien du catalogue dans WhatsApp"><span>CATALOGUE SUR WHATSAPP</span></a></div>
+  </footer>
+
+  <nav class="mobile-bottom-nav" aria-label="Navigation rapide">
+    <a href="/" ><span>⌂</span>Accueil</a>
+    <a href="/#menus"><span>▦</span>Boutique</a>
+    <button id="mobile-search-button" type="button"><span>⌕</span>Recherche</button>
+    <a href="https://wa.me/2250749169293" target="_blank" rel="noreferrer"><span>◉</span>WhatsApp</a>
+    <button id="mobile-cart-button" type="button"><span>♧<i id="cart-count">0</i></span>Panier</button>
+  </nav>
+
+  <dialog class="order-dialog" id="order-dialog" aria-labelledby="dialog-title">
+    <form method="dialog"><button class="dialog-close" aria-label="Fermer">×</button></form>
+    <p class="eyebrow"><span></span> VOTRE COMMANDE</p><h2 id="dialog-title">À vous de choisir.</h2>
+    <div class="selected-items" id="selected-items"></div>
+    <label for="payment-method">Mode de paiement</label>
+    <select id="payment-method"><option value="">À préciser</option><option value="Wave">Wave</option><option value="Orange Money">Orange Money</option></select>
+    <p class="payment-hint">Paiement mobile au +225 07 49 16 92 93.</p>
+    <label for="order-note">Une précision ? <span>(facultatif)</span></label>
+    <textarea id="order-note" rows="3" maxlength="400" placeholder="Accompagnement, quantité, heure souhaitée…"></textarea>
+    <button class="button button-green dialog-submit" id="send-order">Continuer sur WhatsApp <span aria-hidden="true">↗</span></button>
+    <p class="dialog-small">WhatsApp s’ouvrira avec votre message prérempli. Vous pourrez le relire avant de l’envoyer.</p>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
